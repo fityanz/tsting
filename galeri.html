@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Galeri — Bjo Furface | Dokumentasi Karya, Workshop &amp; Showroom</title>
+  <meta name="description" content="Galeri dokumentasi karya kayu jati dan resin, detail produk, proses produksi, workshop, serta showroom Bjo Furface di Batang.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Jost:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script src="assets/js/script.js" defer></script>
+</head>
+<body>
+  <a href="#main-content" class="skip-link">Langsung ke konten utama</a>
+
+  <!-- Announcement Bar -->
+  <div class="announcement-bar" role="region" aria-label="Informasi singkat brand">
+    <div class="container announcement-inner">
+      <p class="announcement-text is-active" data-announcement>One Product For One Person</p>
+      <p class="announcement-text" data-announcement>Handmade dari limbah kayu jati</p>
+      <p class="announcement-text" data-announcement>Sejak 2017, Kemiri Barat, Batang</p>
+    </div>
+  </div>
+
+  <!-- Header -->
+  <header class="site-header is-solid" id="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="brand-lockup" aria-label="Beranda Bjo Furface">
+        <img src="assets/img/logo-bjo-mark.png" alt="Logo tiga lingkaran Bjo Furface" class="brand-mark" width="32" height="32">
+        <span class="brand-name">BJO FURFACE</span>
+      </a>
+
+      <nav class="primary-nav" id="primary-nav" aria-label="Navigasi utama">
+        <ul class="nav-list">
+          <li><a href="index.html" class="nav-link">Beranda</a></li>
+          <li><a href="tentang.html" class="nav-link">Tentang</a></li>
+          <li><a href="produk.html" class="nav-link">Produk</a></li>
+          <li><a href="keunggulan.html" class="nav-link">Keunggulan</a></li>
+          <li><a href="galeri.html" class="nav-link is-active" aria-current="page">Galeri</a></li>
+          <li><a href="kontak.html" class="nav-link">Kontak</a></li>
+        </ul>
+      </nav>
+
+      <div class="header-actions">
+        <!-- GANTI: nomor WA resmi dari admin -->
+        <a href="https://wa.me/6280000000000?text=Halo%20Bjo%20Furface,%20saya%20ingin%20bertanya%20mengenai%20karya%20di%20galeri." target="_blank" rel="noopener noreferrer" class="btn btn-header-cta">
+          Chat WhatsApp
+        </a>
+        <button type="button" class="nav-toggle" id="nav-toggle" aria-expanded="false" aria-controls="mobile-drawer" aria-label="Buka menu navigasi">
+          <span class="hamburger-line"></span>
+          <span class="hamburger-line"></span>
+          <span class="hamburger-line"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Navigation Drawer -->
+  <div class="mobile-drawer-backdrop" id="drawer-backdrop" hidden></div>
+  <aside class="mobile-drawer" id="mobile-drawer" aria-label="Menu seluler" aria-hidden="true">
+    <div class="mobile-drawer-header">
+      <span class="brand-name">BJO FURFACE</span>
+      <button type="button" class="drawer-close" id="drawer-close" aria-label="Tutup menu navigasi">&times;</button>
+    </div>
+    <nav aria-label="Navigasi seluler">
+      <ul class="mobile-nav-list">
+        <li><a href="index.html" class="mobile-nav-link">Beranda</a></li>
+        <li><a href="tentang.html" class="mobile-nav-link">Tentang</a></li>
+        <li><a href="produk.html" class="mobile-nav-link">Produk</a></li>
+        <li><a href="keunggulan.html" class="mobile-nav-link">Keunggulan</a></li>
+        <li><a href="galeri.html" class="mobile-nav-link is-active" aria-current="page">Galeri</a></li>
+        <li><a href="kontak.html" class="mobile-nav-link">Kontak</a></li>
+      </ul>
+    </nav>
+    <div class="mobile-drawer-footer">
+      <!-- GANTI: nomor WA resmi dari admin -->
+      <a href="https://wa.me/6280000000000?text=Halo%20Bjo%20Furface,%20saya%20ingin%20bertanya%20mengenai%20koleksi%20produk." target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-full">
+        Chat WhatsApp
+      </a>
+    </div>
+  </aside>
+
+  <main id="main-content">
+    <!-- Page Header Cream -->
+    <section class="page-banner">
+      <div class="container page-banner-grid">
+        <div>
+          <span class="eyebrow-accent">Arsip Visual</span>
+          <h1 class="page-title">Galeri Karya &amp; Workshop</h1>
+        </div>
+        <p class="page-intro">
+          Dokumentasi eksplorasi kayu jati dan resin, detail sudut produk, hingga suasana pengerjaan dan ruang pamer Bjo Furface di Kemiri Barat. Klik foto mana saja untuk memperbesar.
+        </p>
+      </div>
+    </section>
+
+    <!-- Filter & Grid Galeri -->
+    <section class="section" aria-label="Galeri foto Bjo Furface">
+      <div class="container">
+        <div class="filter-bar">
+          <div class="filter-buttons" role="group" aria-label="Filter kategori galeri">
+            <button type="button" class="filter-btn is-active" data-gallery-filter="Semua" aria-pressed="true">Semua</button>
+            <button type="button" class="filter-btn" data-gallery-filter="Karya & Detail" aria-pressed="false">Karya &amp; Detail</button>
+            <button type="button" class="filter-btn" data-gallery-filter="Workshop & Showroom" aria-pressed="false">Workshop &amp; Showroom</button>
+            <button type="button" class="filter-btn" data-gallery-filter="Proses Produksi" aria-pressed="false">Proses Produksi</button>
+          </div>
+        </div>
+
+        <div class="gallery-grid" id="gallery-grid">
+          <figure class="gallery-item reveal" data-gallery-category="Karya & Detail">
+            <button type="button" class="gallery-trigger" data-lightbox-index="0" aria-label="Perbesar foto Karya Peta Kepulauan Indonesia dari Kayu Jati dan Resin">
+              <img src="assets/img/105609566.jpg" alt="Karya dekoratif peta kepulauan Indonesia yang dibuat dari potongan kayu jati dan resin" loading="lazy">
+            </button>
+            <figcaption class="gallery-caption">Karya Peta Kepulauan Indonesia &mdash; Kayu Jati &amp; Resin</figcaption>
+          </figure>
+
+          <figure class="gallery-item reveal" data-gallery-category="Karya & Detail">
+            <button type="button" class="gallery-trigger" data-lightbox-index="1" aria-label="Perbesar foto Lukisan Resin Ombak pada Kayu Jati">
+              <img src="assets/img/105557148.jpg" alt="Lukisan resin motif ombak laut yang dipadukan dengan serat alami kayu jati" loading="lazy">
+            </button>
+            <figcaption class="gallery-caption">Lukisan Resin Ombak &mdash; Eksplorasi Kayu &amp; Resin</figcaption>
+          </figure>
+
+          <figure class="gallery-item reveal" data-gallery-category="Karya & Detail">
+            <button type="button" class="gallery-trigger" data-lightbox-index="2" aria-label="Perbesar foto Close-up Tekstur Resin dan Kayu Jati">
+              <img src="assets/img/105730589.jpg" alt="Close-up tekstur perpaduan resin dan serat kayu jati hasil finishing Bjo Furface" loading="lazy">
+            </button>
+            <figcaption class="gallery-caption">Close-up Tekstur Resin &amp; Serat Jati</figcaption>
+          </figure>
+
+          <figure class="gallery-item reveal" data-gallery-category="Workshop & Showroom">
+            <button type="button" class="gallery-trigger" data-lightbox-index="3" aria-label="Perbesar foto Interior Workshop Bjo Furface">
+              <img src="assets/img/104233118.jpg" alt="Suasana interior area kerja dan peralatan produksi di workshop Bjo Furface Kemiri Barat" loading="lazy">
+            </button>
+            <figcaption class="gallery-caption">Interior Workshop Bjo Furface &mdash; Kemiri Barat</figcaption>
+          </figure>
+
+          <figure class="gallery-item reveal" data-gallery-category="Workshop & Showroom">
+            <button type="button" class="gallery-trigger" data-lightbox-index="4" aria-label="Perbesar foto Display Showroom Bjo Furface">
+              <img src="assets/img/105643419.jpg" alt="Display koleksi kerajinan kayu jati di ruang pamer showroom Bjo Furface" loading="lazy">
+            </button>
+            <figcaption class="gallery-caption">Display Showroom Bjo Furface (1)</figcaption>
+          </figure>
+
+          <figure class="gallery-item reveal" data-gallery-category="Workshop & Showroom">
+            <button type="button" class="gallery-trigger" data-lightbox-index="5" aria-label="Perbesar foto Sudut Display Showroom Bjo Furface">
+              <img src="assets/img/105708971.jpg" alt="Penataan produk tas kayu dan kerajinan jati pada rak display showroom Bjo Furface" loading="lazy">
+            </button>
+            <figcaption class="gallery-caption">Display Showroom Bjo Furface (2)</figcaption>
+          </figure>
+
+          <figure class="gallery-item reveal" data-gallery-category="Karya & Detail">
+            <button type="button" class="gallery-trigger" data-lightbox-index="6" aria-label="Perbesar foto Detail Penampan Island Tampak Samping">
+              <img src="assets/img/penampan-island-2.jpg" alt="Penampan Island berbahan limbah kayu jati dan resin tampak sudut kedua" loading="lazy">
+            </button>
+            <figcaption class="gallery-caption">Penampan Island &mdash; Detail Sudut 2</figcaption>
+          </figure>
+
+          <figure class="gallery-item reveal" data-gallery-category="Karya & Detail">
+            <button type="button" class="gallery-trigger" data-lightbox-index="7" aria-label="Perbesar foto Detail Penampan Island Tampak Atas">
+              <img src="assets/img/penampan-island-3.jpg" alt="Penampan Island berbahan limbah kayu jati dan resin menampilkan alur resin pulau" loading="lazy">
+            </button>
+            <figcaption class="gallery-caption">Penampan Island &mdash; Detail Sudut 3</figcaption>
+          </figure>
+
+          <figure class="gallery-item reveal" data-gallery-category="Karya & Detail">
+            <button type="button" class="gallery-trigger" data-lightbox-index="8" aria-label="Perbesar foto Detail Pegangan dan Tepian Penampan Island">
+              <img src="assets/img/penampan-island-4.jpg" alt="Detail tepian dan konstruksi pegangan Penampan Island dari kayu jati" loading="lazy">
+            </button>
+            <figcaption class="gallery-caption">Penampan Island &mdash; Detail Sudut 4</figcaption>
+          </figure>
+
+          <figure class="gallery-item reveal" data-gallery-category="Karya & Detail">
+            <button type="button" class="gallery-trigger" data-lightbox-index="9" aria-label="Perbesar foto Detail Finishing Penampan Island">
+              <img src="assets/img/penampan-island-5.jpg" alt="Detail permukaan akhir Penampan Island perpaduan limbah kayu jati dan resin" loading="lazy">
+            </button>
+            <figcaption class="gallery-caption">Penampan Island &mdash; Detail Sudut 5</figcaption>
+          </figure>
+
+          <figure class="gallery-item reveal" data-gallery-category="Karya & Detail">
+            <button type="button" class="gallery-trigger" data-lightbox-index="10" aria-label="Perbesar foto Detail Dial Wooden Watch Silver">
+              <img src="assets/img/wooden-watch-silver-3.jpg" alt="Detail dial dan casing jam tangan kayu Wooden Watch Silver" loading="lazy">
+            </button>
+            <figcaption class="gallery-caption">Wooden Watch (Silver) &mdash; Detail Dial</figcaption>
+          </figure>
+
+          <figure class="gallery-item reveal" data-gallery-category="Karya & Detail">
+            <button type="button" class="gallery-trigger" data-lightbox-index="11" aria-label="Perbesar foto Detail Strap Kayu Wooden Watch Silver">
+              <img src="assets/img/wooden-watch-silver-4.jpg" alt="Detail rantai strap kayu jati pada Wooden Watch Silver" loading="lazy">
+            </button>
+            <figcaption class="gallery-caption">Wooden Watch (Silver) &mdash; Detail Strap</figcaption>
+          </figure>
+
+          <figure class="gallery-item reveal" data-gallery-category="Karya & Detail">
+            <button type="button" class="gallery-trigger" data-lightbox-index="12" aria-label="Perbesar foto Tampilan Keseluruhan Wooden Watch Silver">
+              <img src="assets/img/wooden-watch-silver-5.jpg" alt="Tampilan keseluruhan jam tangan kayu Wooden Watch Silver" loading="lazy">
+            </button>
+            <figcaption class="gallery-caption">Wooden Watch (Silver) &mdash; Detail Sudut 5</figcaption>
+          </figure>
+
+          <figure class="gallery-item reveal" data-gallery-category="Proses Produksi">
+            <button type="button" class="gallery-trigger" data-lightbox-index="13" aria-label="Perbesar foto Bahan Baku Limbah Kayu Jati">
+              <img src="assets/img/104240720.jpg" alt="Bahan baku limbah kayu jati di area produksi Bjo Furface" loading="lazy">
+            </button>
+            <figcaption class="gallery-caption">Proses Produksi &mdash; Bahan Baku Limbah Jati</figcaption>
+          </figure>
+
+          <figure class="gallery-item reveal" data-gallery-category="Proses Produksi">
+            <button type="button" class="gallery-trigger" data-lightbox-index="14" aria-label="Perbesar foto Pemotongan Bahan Kayu Jati">
+              <img src="assets/img/105208139.jpg" alt="Proses pemotongan limbah kayu jati oleh pengrajin Bjo Furface" loading="lazy">
+            </button>
+            <figcaption class="gallery-caption">Proses Produksi &mdash; Pemotongan Kayu</figcaption>
+          </figure>
+
+          <figure class="gallery-item reveal" data-gallery-category="Proses Produksi">
+            <button type="button" class="gallery-trigger" data-lightbox-index="15" aria-label="Perbesar foto Perakitan Komponen Kerajinan">
+              <img src="assets/img/104440232.jpg" alt="Proses perakitan komponen produk kayu jati di workshop" loading="lazy">
+            </button>
+            <figcaption class="gallery-caption">Proses Produksi &mdash; Perakitan Komponen</figcaption>
+          </figure>
+
+          <figure class="gallery-item reveal" data-gallery-category="Proses Produksi">
+            <button type="button" class="gallery-trigger" data-lightbox-index="16" aria-label="Perbesar foto Proses Poles Akhir Produk">
+              <img src="assets/img/105243057.jpg" alt="Proses poles permukaan kerajinan kayu jati di workshop Bjo Furface" loading="lazy">
+            </button>
+            <figcaption class="gallery-caption">Proses Produksi &mdash; Poles &amp; Finishing</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Accessible Lightbox Modal -->
+  <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-labelledby="lightbox-caption" hidden>
+    <div class="lightbox-backdrop" data-lightbox-close></div>
+    <div class="lightbox-dialog">
+      <button type="button" class="lightbox-close" id="lightbox-close" aria-label="Tutup tampilan foto">&times;</button>
+      <button type="button" class="lightbox-nav lightbox-prev" id="lightbox-prev" aria-label="Foto sebelumnya">&#8592;</button>
+      <figure class="lightbox-figure">
+        <img src="assets/img/105609566.jpg" alt="" id="lightbox-img" class="lightbox-img">
+        <figcaption id="lightbox-caption" class="lightbox-caption"></figcaption>
+      </figure>
+      <button type="button" class="lightbox-nav lightbox-next" id="lightbox-next" aria-label="Foto berikutnya">&#8594;</button>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-col footer-about">
+          <img src="assets/img/logo-bjo-resmi-tagline.png" alt="Logo resmi Bjo Furface lengkap dengan tagline One Product For One Person" class="footer-logo" width="210" height="72" loading="lazy">
+          <address class="footer-address">
+            Dukuh Kemiri Utara, RT 03 RW 03 No. 23, Desa Kemiri Barat, Kecamatan Subah, Kabupaten Batang, Jawa Tengah 51262
+          </address>
+        </div>
+
+        <div class="footer-col">
+          <h2 class="footer-heading">Bantuan &amp; Navigasi</h2>
+          <ul class="footer-links">
+            <li><a href="index.html">Beranda</a></li>
+            <li><a href="tentang.html">Tentang Kami</a></li>
+            <li><a href="produk.html">Katalog Produk</a></li>
+            <li><a href="keunggulan.html">Keunggulan</a></li>
+            <li><a href="galeri.html">Galeri</a></li>
+            <li><a href="kontak.html">Kontak</a></li>
+            <li><a href="https://shopee.co.id/bjofurface" target="_blank" rel="noopener noreferrer">Official Store Shopee</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h2 class="footer-heading">Komunitas</h2>
+          <ul class="footer-links">
+            <li><a href="https://www.instagram.com/bjofurface/" target="_blank" rel="noopener noreferrer">Instagram @bjofurface</a></li>
+            <li><a href="https://www.instagram.com/bjofurface_fashion/" target="_blank" rel="noopener noreferrer">Instagram @bjofurface_fashion (Fashion)</a></li>
+            <li>
+              <!-- GANTI: nomor WA resmi dari admin -->
+              <a href="https://wa.me/6280000000000?text=Halo%20Bjo%20Furface,%20saya%20menghubungi%20dari%20website%20resmi." target="_blank" rel="noopener noreferrer">WhatsApp Admin</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2026 Bjo Furface. Hak Cipta Dilindungi.</p>
+        <!-- ISI DARI ADMIN: lengkapi nama anggota kelompok UAS Web Programming jika diperlukan -->
+        <p>Katalog Resmi &amp; Cerita Brand &mdash; Proyek UAS Web Programming</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- GANTI: nomor WA resmi dari admin -->
+  <a href="https://wa.me/6280000000000?text=Halo%20Bjo%20Furface,%20saya%20ingin%20bertanya%20tentang%20produk." target="_blank" rel="noopener noreferrer" class="mobile-sticky-wa">
+    Chat WhatsApp
+  </a>
+  <button type="button" class="back-to-top" id="back-to-top" aria-label="Kembali ke atas halaman">&#8593;</button>
+</body>
+</html>
