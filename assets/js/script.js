@@ -5,8 +5,7 @@
 (function () {
   "use strict";
 
-  /* GANTI: nomor WA resmi dari admin (format internasional tanpa +) */
-  const WHATSAPP_NUMBER = "6280000000000";
+  const WHATSAPP_NUMBER = "6287739113037";
   const SHOPEE_URL = "https://shopee.co.id/bjofurface";
 
   /* HARGA SEMENTARA DARI KKI, KONFIRMASI ADMIN */
