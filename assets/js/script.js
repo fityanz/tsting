@@ -270,8 +270,18 @@
   function initHeaderAndDrawer() {
     const header = document.getElementById("site-header");
     const backToTop = document.getElementById("back-to-top");
+    const pageFile = window.location.pathname.split("/").pop() || "index.html";
+    const resinVariantByPage = {
+      "index.html": "4",
+      "tentang.html": "blue",
+      "produk.html": "5",
+      "keunggulan.html": "3",
+      "galeri.html": "6",
+      "kontak.html": "7"
+    };
     const resinArt = document.createElement("div");
     resinArt.className = "resin-scroll-art";
+    resinArt.dataset.variant = resinVariantByPage[pageFile] || "blue";
     resinArt.setAttribute("aria-hidden", "true");
     ["top-right", "bottom-left"].forEach((corner) => {
       const shape = document.createElement("span");
@@ -292,19 +302,19 @@
       if (Math.abs(delta) < 3) return;
       previousY = y;
 
-      if (y < 12 || prefersReducedMotion) {
-        document.body.classList.remove("resin-scroll-down", "resin-scroll-up");
+      if (y < 12) {
+        resinArt.classList.remove("is-scroll-down", "is-scroll-up");
         return;
       }
 
-      document.body.classList.toggle("resin-scroll-down", delta > 0);
-      document.body.classList.toggle("resin-scroll-up", delta < 0);
+      resinArt.classList.toggle("is-scroll-down", delta > 0);
+      resinArt.classList.toggle("is-scroll-up", delta < 0);
 
       if (delta > 0 && !resinTopGlowPlayed) {
-        document.body.classList.add("resin-glow-top");
+        resinArt.classList.add("is-glow-top");
         resinTopGlowPlayed = true;
       } else if (delta < 0 && !resinBottomGlowPlayed) {
-        document.body.classList.add("resin-glow-bottom");
+        resinArt.classList.add("is-glow-bottom");
         resinBottomGlowPlayed = true;
       }
     }
