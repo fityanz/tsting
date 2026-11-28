@@ -19,10 +19,18 @@
       priceFormatted: "Rp2.399.000",
       image: "assets/img/pemba-abstrack.jpg",
       alt: "Tas kayu Pemba Abstrack karya Bjo Furface berbahan limbah kayu jati dengan motif abstrak alami",
-      hoverImage: null,
-      hoverAlt: null,
-      material: null,
-      dimensions: null,
+      hoverImage: "assets/img/pemba-abstrack-2.jpeg",
+      hoverAlt: "Detail motif resin dan serat kayu pada tas Pemba Abstrack",
+      gallery: [
+        { src: "assets/img/pemba-abstrack.jpg", alt: "Tas Pemba Abstrack tampak depan dengan resin ungu dan serat jati" },
+        { src: "assets/img/pemba-abstrack-2.jpeg", alt: "Detail resin ungu dan emblem pada tas Pemba Abstrack" },
+        { src: "assets/img/pemba-abstrack-3.jpeg", alt: "Detail pegangan kayu pada tas Pemba Abstrack" },
+        { src: "assets/img/pemba-abstrack-4.jpeg", alt: "Tampak bagian dalam dan label tas Pemba Abstrack" },
+        { src: "assets/img/pemba-abstrack-5.jpeg", alt: "Detail pengunci dan pegangan tas Pemba Abstrack" }
+      ],
+      description: "Tas kayu yang merayakan keunikan, ketidaksempurnaan yang harmonis, dan kebebasan berekspresi melalui perpaduan kayu jati dan resin.",
+      material: "Kayu jati dan resin",
+      dimensions: "20 × 10",
       featured: true,
       badge: "UNGGULAN"
     },
@@ -35,10 +43,18 @@
       priceFormatted: "Rp2.399.000",
       image: "assets/img/lucia-island-new-natural.jpg",
       alt: "Tas kayu Lucia Island New Natural karya Bjo Furface dengan tampilan serat alami kayu jati",
-      hoverImage: null,
-      hoverAlt: null,
-      material: null,
-      dimensions: null,
+      hoverImage: "assets/img/lucia-island-new-natural-4.jpeg",
+      hoverAlt: "Lucia Island New Natural tampak samping dengan rantai metal",
+      gallery: [
+        { src: "assets/img/lucia-island-new-natural.jpg", alt: "Tas Lucia Island New Natural tampak depan" },
+        { src: "assets/img/lucia-island-new-natural-2.jpeg", alt: "Detail serat kayu pada bagian depan tas Lucia Island" },
+        { src: "assets/img/lucia-island-new-natural-3.jpeg", alt: "Detail lapisan bagian dalam tas Lucia Island" },
+        { src: "assets/img/lucia-island-new-natural-4.jpeg", alt: "Tas Lucia Island dengan rantai metal tampak utuh" },
+        { src: "assets/img/lucia-island-new-natural-5.jpeg", alt: "Tampak samping tas Lucia Island dan label Bjo Furface" }
+      ],
+      description: "Tas kayu yang memadukan keindahan sederhana dengan keunikan serat alami dan resin. Setiap susunan material membentuk karakter yang berbeda.",
+      material: "Kayu dan resin",
+      dimensions: "20 × 10",
       featured: true,
       badge: "UNGGULAN"
     },
@@ -51,10 +67,17 @@
       priceFormatted: "Rp299.000",
       image: "assets/img/telenan-island.jpg",
       alt: "Telenan Island Bjo Furface berbahan kayu jati dan resin untuk peralatan dapur",
-      hoverImage: null,
-      hoverAlt: null,
-      material: null,
-      dimensions: null,
+      hoverImage: "assets/img/telenan-island-4.jpeg",
+      hoverAlt: "Telenan Island tampak utuh dengan alur resin biru",
+      gallery: [
+        { src: "assets/img/telenan-island.jpg", alt: "Telenan Island tampak depan dari kayu jati dan resin" },
+        { src: "assets/img/telenan-island-2.jpeg", alt: "Detail ujung telenan Island dan alur resin biru" },
+        { src: "assets/img/telenan-island-3.jpeg", alt: "Detail pegangan telenan Island" },
+        { src: "assets/img/telenan-island-4.jpeg", alt: "Telenan Island tampak utuh dengan pola kayu dan resin" }
+      ],
+      description: "Perpaduan fungsi dan seni dalam satu peralatan dapur. Garis resin dan serat kayu jati membentuk komposisi yang khas pada setiap karya.",
+      material: "Limbah kayu jati dan resin",
+      dimensions: "30 × 19",
       featured: false,
       badge: null
     },
@@ -67,8 +90,16 @@
       priceFormatted: "Rp599.000",
       image: "assets/img/penampan-island-1.jpg",
       alt: "Penampan Island Bjo Furface berbahan limbah kayu jati dan resin dengan motif kepulauan",
-      hoverImage: "assets/img/penampan-island-closeup.jpg",
-      hoverAlt: "Close-up detail tekstur resin dan serat kayu jati pada Penampan Island",
+      hoverImage: "assets/img/penampan-island-2.jpg",
+      hoverAlt: "Penampan Island dari sudut berbeda dengan detail kayu dan resin",
+      gallery: [
+        { src: "assets/img/penampan-island-1.jpg", alt: "Penampan Island tampak atas dengan resin biru dan kayu jati" },
+        { src: "assets/img/penampan-island-2.jpg", alt: "Penampan Island dari sudut berbeda" },
+        { src: "assets/img/penampan-island-3.jpg", alt: "Detail komposisi resin biru pada Penampan Island" },
+        { src: "assets/img/penampan-island-4.jpg", alt: "Detail sisi dan konstruksi Penampan Island" },
+        { src: "assets/img/penampan-island-5.jpg", alt: "Tampak sisi Penampan Island dengan detail resin" }
+      ],
+      description: "Penampan saji yang memadukan fungsi dengan komposisi resin dan kayu jati. Tersedia dalam beberapa ukuran untuk kebutuhan penyajian yang berbeda.",
       material: "Limbah kayu jati dan resin",
       dimensions: "S 32,5 x 20 x 5,5 cm / M 37 x 23 x 5,5 cm / L 48,5 x 26 x 5,5 cm",
       featured: false,
@@ -83,10 +114,17 @@
       priceFormatted: "Rp499.000",
       image: "assets/img/natural-island-wall-clock.jpg",
       alt: "Natural Island Wall Clock jam dinding kayu jati dan resin karya Bjo Furface",
-      hoverImage: null,
-      hoverAlt: null,
-      material: null,
-      dimensions: null,
+      hoverImage: "assets/img/natural-island-wall-clock-3.jpeg",
+      hoverAlt: "Detail dial Natural Island Wall Clock dari kayu dan resin",
+      gallery: [
+        { src: "assets/img/natural-island-wall-clock.jpg", alt: "Natural Island Wall Clock tampak depan" },
+        { src: "assets/img/natural-island-wall-clock-2.jpeg", alt: "Jam dinding Bjo Furface tampak penuh" },
+        { src: "assets/img/natural-island-wall-clock-3.jpeg", alt: "Detail jarum dan serat kayu pada jam dinding" },
+        { src: "assets/img/natural-island-wall-clock-4.jpeg", alt: "Close-up perpaduan resin dan kayu pada dial jam" }
+      ],
+      description: "Jam dinding fungsional dengan karakter kayu jati dan resin. Bentuk serat, warna resin, dan penanda waktu memberi tiap karya tampilan yang khas.",
+      material: "Limbah kayu jati dan resin",
+      dimensions: "30 × 30; pilihan diameter 20, 25, dan 30 cm",
       featured: false,
       badge: null
     },
@@ -99,10 +137,18 @@
       priceFormatted: "Rp999.000",
       image: "assets/img/wooden-watch-gold.jpg",
       alt: "Jam tangan kayu Wooden Watch varian Gold berbahan limbah kayu jati dan resin",
-      hoverImage: null,
-      hoverAlt: null,
+      hoverImage: "assets/img/wooden-watch-gold-3.jpeg",
+      hoverAlt: "Wooden Watch Gold bersama kotak penyimpanannya",
+      gallery: [
+        { src: "assets/img/wooden-watch-gold.jpg", alt: "Wooden Watch Gold tampak depan" },
+        { src: "assets/img/wooden-watch-gold-2.jpeg", alt: "Wooden Watch Gold tampak utuh" },
+        { src: "assets/img/wooden-watch-gold-3.jpeg", alt: "Wooden Watch Gold dengan kotak penyimpanan" },
+        { src: "assets/img/wooden-watch-gold-4.jpeg", alt: "Detail dial dan strap Wooden Watch Gold" },
+        { src: "assets/img/wooden-watch-gold-5.jpeg", alt: "Detail kayu dan pengunci Wooden Watch Gold" }
+      ],
+      description: "Jam tangan kayu yang membawa karakter serat alami ke dalam aksesori sehari-hari. Aksen warna gold melengkapi perpaduan kayu jati dan resin.",
       material: "Limbah kayu jati dan resin",
-      dimensions: null,
+      dimensions: "4,2 × 4,2",
       featured: false,
       badge: null
     },
@@ -117,8 +163,16 @@
       alt: "Jam tangan kayu Wooden Watch varian Silver tampak depan berbahan limbah kayu jati dan resin",
       hoverImage: "assets/img/wooden-watch-silver-2.jpg",
       hoverAlt: "Jam tangan kayu Wooden Watch varian Silver sudut kedua menampilkan detail strap kayu",
+      gallery: [
+        { src: "assets/img/wooden-watch-silver-1.jpg", alt: "Wooden Watch Silver tampak depan" },
+        { src: "assets/img/wooden-watch-silver-2.jpg", alt: "Wooden Watch Silver dari sudut berbeda" },
+        { src: "assets/img/wooden-watch-silver-3.jpg", alt: "Detail dial Wooden Watch Silver" },
+        { src: "assets/img/wooden-watch-silver-4.jpg", alt: "Detail strap kayu Wooden Watch Silver" },
+        { src: "assets/img/wooden-watch-silver-5.jpg", alt: "Detail pengunci dan konstruksi Wooden Watch Silver" }
+      ],
+      description: "Jam tangan kayu dengan resin dan aksen silver. Perpaduan bahan alami dan komponen metal menghadirkan aksesori fungsional dengan karakter khas.",
       material: "Limbah kayu jati dan resin",
-      dimensions: null,
+      dimensions: "4,2 × 4,2",
       featured: false,
       badge: null
     }
@@ -131,11 +185,17 @@
     return `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(text)}`;
   }
 
-  function createProductCardElement(product, options = {}) {
-    const { showExtendedSpecs = false } = options;
+  function createProductCardElement(product) {
     const article = document.createElement("article");
-    article.className = "product-card" + (product.hoverImage ? " has-hover-img" : "");
+    article.className = "product-card reveal" + (product.hoverImage ? " has-hover-img" : "");
     article.dataset.featured = String(Boolean(product.featured));
+
+    const trigger = document.createElement("button");
+    trigger.type = "button";
+    trigger.className = "product-card-trigger";
+    trigger.dataset.productDetail = product.id;
+    trigger.setAttribute("aria-haspopup", "dialog");
+    trigger.setAttribute("aria-label", `Lihat detail ${product.name}`);
 
     const media = document.createElement("div");
     media.className = "product-media";
@@ -163,27 +223,7 @@
       media.appendChild(hoverImg);
     }
 
-    const actions = document.createElement("div");
-    actions.className = "product-hover-actions";
-
-    const waLink = document.createElement("a");
-    waLink.href = buildWhatsAppProductUrl(product);
-    waLink.target = "_blank";
-    waLink.rel = "noopener noreferrer";
-    waLink.className = "pill-action pill-action-wa";
-    waLink.textContent = "Tanya via WhatsApp";
-    actions.appendChild(waLink);
-
-    const shopeeLink = document.createElement("a");
-    shopeeLink.href = SHOPEE_URL;
-    shopeeLink.target = "_blank";
-    shopeeLink.rel = "noopener noreferrer";
-    shopeeLink.className = "pill-action pill-action-shopee";
-    shopeeLink.textContent = "Lihat di Shopee";
-    actions.appendChild(shopeeLink);
-
-    media.appendChild(actions);
-    article.appendChild(media);
+    trigger.appendChild(media);
 
     const info = document.createElement("div");
     info.className = "product-info";
@@ -198,26 +238,18 @@
     title.textContent = product.name;
     info.appendChild(title);
 
-    if (showExtendedSpecs && product.material) {
-      const mat = document.createElement("p");
-      mat.className = "product-spec";
-      mat.textContent = `Bahan: ${product.material}`;
-      info.appendChild(mat);
-    }
-
-    if (showExtendedSpecs && product.dimensions) {
-      const dim = document.createElement("p");
-      dim.className = "product-spec";
-      dim.textContent = `Ukuran: ${product.dimensions}`;
-      info.appendChild(dim);
-    }
-
     const price = document.createElement("p");
     price.className = "product-price";
     price.textContent = product.priceFormatted;
     info.appendChild(price);
 
-    article.appendChild(info);
+    const openCue = document.createElement("span");
+    openCue.className = "product-card-cue";
+    openCue.textContent = "Lihat detail";
+    info.appendChild(openCue);
+
+    trigger.appendChild(info);
+    article.appendChild(trigger);
     return article;
   }
 
@@ -238,6 +270,44 @@
   function initHeaderAndDrawer() {
     const header = document.getElementById("site-header");
     const backToTop = document.getElementById("back-to-top");
+    const resinArt = document.createElement("div");
+    resinArt.className = "resin-scroll-art";
+    resinArt.setAttribute("aria-hidden", "true");
+    ["top-right", "bottom-left"].forEach((corner) => {
+      const shape = document.createElement("span");
+      shape.className = `resin-scroll-art__shape resin-scroll-art__shape--${corner}`;
+      resinArt.appendChild(shape);
+    });
+    document.body.appendChild(resinArt);
+
+    let previousY = window.scrollY;
+    let resinFramePending = false;
+    let resinTopGlowPlayed = false;
+    let resinBottomGlowPlayed = false;
+
+    function updateResinDirection() {
+      resinFramePending = false;
+      const y = window.scrollY;
+      const delta = y - previousY;
+      if (Math.abs(delta) < 3) return;
+      previousY = y;
+
+      if (y < 12 || prefersReducedMotion) {
+        document.body.classList.remove("resin-scroll-down", "resin-scroll-up");
+        return;
+      }
+
+      document.body.classList.toggle("resin-scroll-down", delta > 0);
+      document.body.classList.toggle("resin-scroll-up", delta < 0);
+
+      if (delta > 0 && !resinTopGlowPlayed) {
+        document.body.classList.add("resin-glow-top");
+        resinTopGlowPlayed = true;
+      } else if (delta < 0 && !resinBottomGlowPlayed) {
+        document.body.classList.add("resin-glow-bottom");
+        resinBottomGlowPlayed = true;
+      }
+    }
 
     function handleScroll() {
       const y = window.scrollY;
@@ -254,6 +324,10 @@
         } else {
           backToTop.classList.remove("is-visible");
         }
+      }
+      if (!resinFramePending) {
+        resinFramePending = true;
+        requestAnimationFrame(updateResinDirection);
       }
     }
 
@@ -393,7 +467,7 @@
 
     track.innerHTML = "";
     orderedProducts.forEach((product) => {
-      track.appendChild(createProductCardElement(product, { showExtendedSpecs: false }));
+      track.appendChild(createProductCardElement(product));
     });
 
     let snapRestoreTimer = null;
@@ -533,7 +607,7 @@
       const link = document.createElement("a");
       link.href = "galeri.html";
       link.className = "text-link";
-      link.innerHTML = "Lihat eksplorasi di galeri &#8594;";
+      link.textContent = "Lihat eksplorasi di galeri";
 
       body.appendChild(eyebrow);
       body.appendChild(heading);
@@ -560,7 +634,9 @@
 
       grid.innerHTML = "";
       filtered.forEach((product) => {
-        grid.appendChild(createProductCardElement(product, { showExtendedSpecs: true }));
+        const card = createProductCardElement(product);
+        card.classList.add("is-revealed");
+        grid.appendChild(card);
       });
 
       if (filtered.length > 0) {
@@ -591,7 +667,117 @@
     renderCatalog();
   }
 
-  /* 6. Galeri Filter & Keyboard-Accessible Lightbox */
+  /* 6. Product detail dialog shared by home cards and the full catalog. */
+  function initProductDetails() {
+    const dialog = document.createElement("dialog");
+    dialog.className = "product-detail-dialog";
+    dialog.id = "product-detail-dialog";
+    dialog.setAttribute("aria-labelledby", "product-detail-title");
+    dialog.innerHTML = `
+      <div class="product-detail-shell">
+        <button class="product-detail-close" type="button" data-detail-close aria-label="Tutup detail produk">×</button>
+        <section class="product-detail-gallery" aria-label="Foto produk">
+          <div class="product-detail-main-image">
+            <img id="product-detail-image" src="" alt="">
+            <button class="product-detail-arrow product-detail-prev" type="button" data-detail-prev aria-label="Foto sebelumnya">‹</button>
+            <button class="product-detail-arrow product-detail-next" type="button" data-detail-next aria-label="Foto berikutnya">›</button>
+            <span class="product-detail-photo-count" id="product-detail-photo-count" aria-live="polite"></span>
+          </div>
+          <div class="product-detail-thumbnails" id="product-detail-thumbnails" aria-label="Pilih foto produk"></div>
+        </section>
+        <section class="product-detail-content">
+          <span class="eyebrow-accent" id="product-detail-category"></span>
+          <h2 id="product-detail-title"></h2>
+          <p class="product-detail-price" id="product-detail-price"></p>
+          <p class="product-detail-description" id="product-detail-description"></p>
+          <dl class="product-detail-specs">
+            <div><dt>Bahan</dt><dd id="product-detail-material"></dd></div>
+            <div><dt>Ukuran</dt><dd id="product-detail-dimensions"></dd></div>
+          </dl>
+          <p class="product-detail-note">Setiap karya memiliki alur serat dan komposisi resin yang khas. Konfirmasi harga dan ketersediaan melalui WhatsApp.</p>
+          <div class="product-detail-actions">
+            <a class="btn btn-dark" id="product-detail-whatsapp" href="#" target="_blank" rel="noopener noreferrer">Tanya via WhatsApp</a>
+            <a class="btn btn-detail-secondary" id="product-detail-shopee" href="#" target="_blank" rel="noopener noreferrer">Lihat di Shopee</a>
+          </div>
+        </section>
+      </div>`;
+    document.body.appendChild(dialog);
+
+    const mainImage = dialog.querySelector("#product-detail-image");
+    const photoCount = dialog.querySelector("#product-detail-photo-count");
+    const thumbnails = dialog.querySelector("#product-detail-thumbnails");
+    let activeProduct = null;
+    let activePhotoIndex = 0;
+    let lastTrigger = null;
+
+    function showPhoto(index) {
+      if (!activeProduct || !activeProduct.gallery?.length) return;
+      const photos = activeProduct.gallery;
+      activePhotoIndex = (index + photos.length) % photos.length;
+      const photo = photos[activePhotoIndex];
+      mainImage.src = photo.src;
+      mainImage.alt = photo.alt;
+      photoCount.textContent = `${activePhotoIndex + 1} / ${photos.length}`;
+      thumbnails.querySelectorAll("button").forEach((button, photoIndex) => {
+        const selected = photoIndex === activePhotoIndex;
+        button.classList.toggle("is-active", selected);
+        button.setAttribute("aria-pressed", String(selected));
+      });
+    }
+
+    function openProduct(product, trigger) {
+      activeProduct = product;
+      activePhotoIndex = 0;
+      lastTrigger = trigger;
+      dialog.querySelector("#product-detail-category").textContent = product.category;
+      dialog.querySelector("#product-detail-title").textContent = product.name;
+      dialog.querySelector("#product-detail-price").textContent = product.priceFormatted;
+      dialog.querySelector("#product-detail-description").textContent = product.description;
+      dialog.querySelector("#product-detail-material").textContent = product.material;
+      dialog.querySelector("#product-detail-dimensions").textContent = product.dimensions;
+      dialog.querySelector("#product-detail-whatsapp").href = buildWhatsAppProductUrl(product);
+      dialog.querySelector("#product-detail-shopee").href = SHOPEE_URL;
+
+      thumbnails.replaceChildren();
+      product.gallery.forEach((photo, index) => {
+        const button = document.createElement("button");
+        button.type = "button";
+        button.className = "product-detail-thumb";
+        button.setAttribute("aria-label", `Tampilkan foto ${index + 1} dari ${product.gallery.length}`);
+        button.setAttribute("aria-pressed", String(index === 0));
+        const image = document.createElement("img");
+        image.src = photo.src;
+        image.alt = "";
+        image.loading = "lazy";
+        button.appendChild(image);
+        button.addEventListener("click", () => showPhoto(index));
+        thumbnails.appendChild(button);
+      });
+
+      showPhoto(0);
+      dialog.showModal();
+    }
+
+    document.addEventListener("click", (event) => {
+      const trigger = event.target.closest("[data-product-detail]");
+      if (!trigger) return;
+      const product = PRODUCTS.find((item) => item.id === trigger.dataset.productDetail);
+      if (product) openProduct(product, trigger);
+    });
+
+    dialog.querySelector("[data-detail-close]").addEventListener("click", () => dialog.close());
+    dialog.querySelector("[data-detail-prev]").addEventListener("click", () => showPhoto(activePhotoIndex - 1));
+    dialog.querySelector("[data-detail-next]").addEventListener("click", () => showPhoto(activePhotoIndex + 1));
+    dialog.addEventListener("click", (event) => {
+      if (event.target === dialog) dialog.close();
+    });
+    dialog.addEventListener("close", () => {
+      if (lastTrigger?.isConnected) lastTrigger.focus();
+      activeProduct = null;
+    });
+  }
+
+  /* 7. Galeri Filter & Keyboard-Accessible Lightbox */
   function initGalleryAndLightbox() {
     const galleryGrid = document.getElementById("gallery-grid");
     const lightbox = document.getElementById("lightbox");
@@ -668,6 +854,23 @@
       if (e.key === "Escape") closeLightbox();
       if (e.key === "ArrowLeft") stepLightbox(-1);
       if (e.key === "ArrowRight") stepLightbox(1);
+
+      if (e.key === "Tab") {
+        const controls = [lbClose, lbPrev, lbNext].filter(Boolean);
+        const firstControl = controls[0];
+        const lastControl = controls[controls.length - 1];
+
+        if (e.shiftKey && document.activeElement === firstControl) {
+          e.preventDefault();
+          lastControl.focus();
+        } else if (!e.shiftKey && document.activeElement === lastControl) {
+          e.preventDefault();
+          firstControl.focus();
+        } else if (!lightbox.contains(document.activeElement)) {
+          e.preventDefault();
+          firstControl.focus();
+        }
+      }
     });
 
     filterBtns.forEach((btn) => {
@@ -727,6 +930,20 @@
       return;
     }
 
+    const revealGroups = new Map();
+    elements.forEach((element) => {
+      const group = element.parentElement;
+      const groupItems = revealGroups.get(group) || [];
+      groupItems.push(element);
+      revealGroups.set(group, groupItems);
+    });
+
+    revealGroups.forEach((groupItems) => {
+      groupItems.forEach((element, index) => {
+        element.style.setProperty("--reveal-delay", `${Math.min(index * 75, 360)}ms`);
+      });
+    });
+
     const observer = new IntersectionObserver(
       (entries, obs) => {
         entries.forEach((entry) => {
@@ -748,6 +965,7 @@
     initHeroCarousel();
     initFeaturedSection();
     initProductCatalogPage();
+    initProductDetails();
     initGalleryAndLightbox();
     initContactForm();
     initScrollReveal();
