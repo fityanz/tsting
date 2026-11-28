@@ -2359,7 +2359,8 @@ body {
   background-position: center;
   opacity: 0;
   filter: drop-shadow(0 12px 20px rgba(16, 27, 37, 0.24));
-  transition: opacity 650ms var(--ease-luxury), transform 1s var(--ease-luxury), filter 500ms var(--ease-luxury);
+  transition: opacity 500ms var(--ease-luxury), transform 700ms var(--ease-luxury);
+  will-change: opacity, transform;
 }
 
 .resin-scroll-art[data-variant="blue"] .resin-scroll-art__shape {
@@ -2463,9 +2464,18 @@ body {
   background-image: url("../img/resin-accent-bottom-7.png");
 }
 
-.resin-scroll-art__shape::before,
 .resin-scroll-art__shape::after {
-  content: none;
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image: inherit;
+  background-position: inherit;
+  background-repeat: inherit;
+  background-size: inherit;
+  opacity: 0;
+  pointer-events: none;
+  filter: drop-shadow(0 0 20px var(--resin-glow-color, rgba(110, 220, 255, 0.72)))
+    drop-shadow(0 0 48px var(--resin-glow-soft-color, rgba(41, 157, 220, 0.4)));
 }
 
 .resin-scroll-art__shape--top-right {
@@ -2500,16 +2510,17 @@ body {
 
 .resin-scroll-art.is-ready.is-glow-top .resin-scroll-art__shape--top-right,
 .resin-scroll-art.is-ready.is-glow-bottom .resin-scroll-art__shape--bottom-left {
-  animation: resin-first-glow 1.25s var(--ease-luxury) both;
+  animation: none;
+}
+
+.resin-scroll-art.is-ready.is-glow-top .resin-scroll-art__shape--top-right::after,
+.resin-scroll-art.is-ready.is-glow-bottom .resin-scroll-art__shape--bottom-left::after {
+  animation: resin-first-glow 1.25s ease-out both;
 }
 
 @keyframes resin-first-glow {
-  0%, 100% { filter: drop-shadow(0 12px 20px rgba(16, 27, 37, 0.24)); }
-  38% {
-    filter: drop-shadow(0 0 20px var(--resin-glow-color, rgba(110, 220, 255, 0.72)))
-      drop-shadow(0 0 48px var(--resin-glow-soft-color, rgba(41, 157, 220, 0.4)))
-      drop-shadow(0 15px 24px rgba(16, 27, 37, 0.25));
-  }
+  0%, 100% { opacity: 0; }
+  38% { opacity: 0.92; }
 }
 
 @media (max-width: 640px) {
@@ -2605,6 +2616,10 @@ body {
   .resin-scroll-art.is-ready.is-glow-top .resin-scroll-art__shape--top-right,
   .resin-scroll-art.is-ready.is-glow-bottom .resin-scroll-art__shape--bottom-left {
     animation: none;
+  }
+
+  .resin-scroll-art__shape::after {
+    animation: none !important;
   }
 }
 
