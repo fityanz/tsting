@@ -279,6 +279,14 @@
       "galeri.html": "6",
       "kontak.html": "7"
     };
+    const resinAssetsByVariant = {
+      blue: ["assets/img/resin-accent-top.png", "assets/img/resin-accent-bottom.png"],
+      "3": ["assets/img/resin-accent-top-3.png", "assets/img/resin-accent-bottom-3.png"],
+      "4": ["assets/img/resin-accent-top-4.png", "assets/img/resin-accent-bottom-4.png"],
+      "5": ["assets/img/resin-accent-top-5.png", "assets/img/resin-accent-bottom-5.png"],
+      "6": ["assets/img/resin-accent-top-6.png", "assets/img/resin-accent-bottom-6.png"],
+      "7": ["assets/img/resin-accent-top-7.png", "assets/img/resin-accent-bottom-7.png"]
+    };
     const resinArt = document.createElement("div");
     resinArt.className = "resin-scroll-art";
     resinArt.dataset.variant = resinVariantByPage[pageFile] || "blue";
@@ -289,6 +297,21 @@
       resinArt.appendChild(shape);
     });
     document.body.appendChild(resinArt);
+
+    Promise.all(resinAssetsByVariant[resinArt.dataset.variant].map((source) => {
+      const image = new Image();
+      image.fetchPriority = "high";
+      image.src = source;
+      return typeof image.decode === "function"
+        ? image.decode().catch(() => undefined)
+        : new Promise((resolve) => {
+            if (image.complete) resolve();
+            else {
+              image.addEventListener("load", resolve, { once: true });
+              image.addEventListener("error", resolve, { once: true });
+            }
+          });
+    })).then(() => resinArt.classList.add("is-ready"));
 
     let previousY = window.scrollY;
     let resinFramePending = false;
